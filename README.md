@@ -40,8 +40,10 @@ The knowledge for working with database
 | DOUBLE(size, d)           | A normal-size floating point number. The total number of digits is specified in size. The number of digits after the decimal point is specified in the d parameter                                                                                                                             |
 | DOUBLE PRECISION(size, d) |                                                                                                                                                                                                                                                                                                |
 | DECIMAL(size, d)          | An exact fixed-point number. The total number of digits is specified in size. The number of digits after the decimal point is specified in the d parameter. The maximum number for size is 65. The maximum number for d is 30. The default value for size is 10. The default value for d is 0. |
-| DEC(size, d)              | Equal to DECIMAL(size,d)                                                                                                                                                                                                                                                                       |
+| DEC(size, d)              | Equal to DECIMAL(size,d)                                                                                                                                                                                                                                                                       | 
+
 Note: All the numeric data types may have an extra option: UNSIGNED or ZEROFILL. If you add the UNSIGNED option, MySQL disallows negative values for the column. If you add the ZEROFILL option, MySQL automatically also adds the UNSIGNED attribute to the column. 
+
 *Date and Time Data Types*
 
 | Data type      | Description                                                                                                                                                                                                                                                                                                                                                                                                       |
